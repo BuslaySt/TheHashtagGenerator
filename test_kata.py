@@ -1,3 +1,6 @@
+import kata
+import unittest
+
 test.describe("Basic tests")
 test.assert_equals(generate_hashtag(''), False, 'Expected an empty string to return False')
 test.assert_equals(generate_hashtag('Do We have A Hashtag')[0], '#', 'Expeted a Hashtag (#) at the beginning.')
