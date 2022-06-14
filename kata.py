@@ -13,5 +13,6 @@
 # ""                                        =>  false
 
 def generate_hashtag(s):
-    pass
-    #your code here
+    if 0 < len(s) < 140:
+        return "#"+"".join([word.capitalize() for word in s.split()])
+    return False
