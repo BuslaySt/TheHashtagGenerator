@@ -1,5 +1,6 @@
 import kata
 import unittest
+import random
 
 
 class Test_Generate_Hashtag(unittest.TestCase):
